@@ -1,0 +1,29 @@
+#image {
+  width: 500px;
+  min-height: 500px;
+  line-height: 200px; /* căn giữa nội dung theo chiều dọc */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eee;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.preview {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+img.preview:hover {
+  transform: scale(1.05); /* hiệu ứng phóng nhẹ khi hover */
+}
